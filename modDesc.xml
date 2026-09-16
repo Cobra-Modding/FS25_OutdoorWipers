@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<modDesc descVersion="98">
+    <author>Marcus (Cobra Modding)</author>
+    <version>1.0.0.0</version>
+
+    <title>
+        <de>Scheibenwischer aus in Hallen</de>
+        <en>Outdoor Wipers</en>
+    </title>
+
+    <description>
+        <de>Schaltet die Scheibenwischer automatisch aus, sobald das Fahrzeug unter einem Dach steht oder in eine Halle fährt. Sie laufen nur im Freien.</de>
+        <en>Automatically turns off the windshield wipers when the vehicle is under a roof or inside a building. Wipers only run outdoors.</en>
+    </description>
+
+    <iconFilename>icon_OutdoorWipers.dds</iconFilename>
+
+    <multiplayer supported="true"/>
+
+    <extraSourceFiles>
+        <sourceFile filename="scripts/OutdoorWipers.lua"/>
+    </extraSourceFiles>
+</modDesc>
